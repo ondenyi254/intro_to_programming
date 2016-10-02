@@ -15,7 +15,7 @@ def fiw number
     if number < 0 
       return "please remove that *%$ negative"
 
-else 
+    else 
        # for zero
         if number == 0
           return zero
