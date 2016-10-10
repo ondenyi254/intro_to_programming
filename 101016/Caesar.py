@@ -2,13 +2,13 @@
 
 
 
-# blaa
+# 
 def write_file(d,writes):
     text=open(d,'w')
     text.write(writes)
     text.close()
 
-# bluuu  
+#   
 def read_file(filename):
     text = open(filename,'r').read()
     # text.close()
@@ -16,10 +16,10 @@ def read_file(filename):
     
 
 
-# blaablaa
+# 
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
 
-# blabluuu
+# 
 def encipher(filename, key):
     plaintext=read_file(filename)
     encryted_text = ''
@@ -32,7 +32,7 @@ def encipher(filename, key):
     write_file('ahmed.txt',encryted_text)
     
    
-# blublaa
+
 def decipher(filename ,key):
     plaintext=read_file(filename)
     decryted_text = ''
@@ -48,7 +48,7 @@ def decipher(filename ,key):
 
 
 
-# haaaaa
+# 
 encipher('tony.txt',9)
 decipher('ahmed.txt',9)
 
